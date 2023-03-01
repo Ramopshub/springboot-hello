@@ -11,6 +11,6 @@ public class DockerHelloWorld {
 	@GetMapping
 	public String getName() {
 		
-		return "Hello World!";
+		return "WELCOME TO THE VINCENTC TECHNOLOGIES!!";
 	}
 }
