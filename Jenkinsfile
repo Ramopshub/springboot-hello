@@ -29,7 +29,7 @@ pipeline {
         stage('Docker Login'){
             
             steps {
-                 withCredentials([string(credentialsId: 'dockerId', variable: 'Dockerpwd')]) {
+                 withCredentials([string(credentialsId: 'DockerID', variable: 'Dockerpwd')]) {
                     sh "docker login -u ramvn -p ${Dockerpwd}"
                 }
             }                
